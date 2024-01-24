@@ -57,7 +57,7 @@ variable "tags" {
 variable "managedby" {
   type        = string
   default     = ""
-  description = ""
+  description = "slovink"
 }
 
 variable "enabled" {

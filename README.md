@@ -36,13 +36,6 @@ This module has a few dependencies:
 
 
 
-
-## Examples
-
-
-**IMPORTANT:** Since the `master` branch used in `source` varies based on new modifications, we suggest that you use the release versions [here](https://github.com/slovink/terraform-azure-resource-group/releases).
-
-
 ### Simple Example
 Here is an example of how you can use this module in your inventory structure:
   ```hcl
@@ -58,6 +51,18 @@ module "resource_group" {
 }
 
   ```
+
+## Examples
+
+
+**IMPORTANT:** Since the `master` branch used in `source` varies based on new modifications, we suggest that you use the release versions [here](https://github.com/slovink/terraform-azure-resource-group/releases).
+
+
+
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/slovink/terraform-azure-resource-group/blob/krishan/LICENSE) file for details.
 
 
 
