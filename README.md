@@ -89,7 +89,7 @@ If you have found it worth your time, go ahead and give us a ★ on [our GitHub]
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git::git@github.com:slovink/terraform-azure-labels.git | 1.0.0 |
+| <a name="module_labels"></a> [labels](#module\_labels) | git::git@github.com:slovink/terraform-azure-labels.git?ref=1.0.0 | 1.0.0 |
 
 ## Resources
 
