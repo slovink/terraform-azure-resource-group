@@ -58,13 +58,11 @@ Here is an example of how you can use this module in your inventory structure:
   ```hcl
 
 module "resource_group" {
-  source = "./../"
-
-  environment = "tested"
-  label_order = ["name", "environment", ]
-
-  name     = "example"
-  location = "North Europe"
+  source       = "git@github.com:slovink/terraform-azure-resource-group.git?ref=1.0.0"
+  environment  = "tested"
+  label_order  = ["name", "environment", ]
+  name         = "example"
+  location     = "North Europe"
 }
 
   ```
@@ -79,7 +77,7 @@ module "resource_group" {
 
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/slovink/terraform-azure-resource-group/blob/krishan/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/slovink/terraform-azure-resource-group/blob/dev/LICENSE) file for details.
 
 
 
@@ -91,9 +89,9 @@ If you have found it worth your time, go ahead and give us a ★ on [our GitHub]
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-| Name | Version  |
-|------|----------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=1.7.4  |
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=1.7.4 |
 | <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | >=3.87.0 |
 
 ## Providers
